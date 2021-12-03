@@ -28,6 +28,11 @@
     max-width: calc(100% / 12 * 2);
 }
 
+.nested-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 2);
+}
+
 .nested-6 {
     flex-basis: 50%;
     max-width: 50%;
@@ -76,4 +81,10 @@
 
 #allignment .size-b {
     height: 80px;
+}
+
+/* Justify Content */
+
+#justify-content [class^="col"] {
+    height: 50px;
 }
