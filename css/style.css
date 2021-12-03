@@ -69,3 +69,11 @@
 }
 
 /* Allignment */
+
+#allignment [class^="col"] {
+    height: 40px;
+}
+
+#allignment .size-b {
+    height: 80px;
+}
