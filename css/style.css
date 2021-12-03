@@ -4,3 +4,34 @@
     padding: 10px 0;
     color: white;
 }
+
+[class^="nested"] {
+    background-color: chartreuse;
+    border: 1px solid dodgerblue;
+    padding: 10px 0;
+}
+
+/* Nested */
+
+.nested {
+    padding: 10px 10px;
+}
+
+.nested {
+    display: flex;
+}
+
+.nested-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+
+.nested-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.nested-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
