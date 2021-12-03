@@ -46,6 +46,12 @@
 
 /* Second exercise */ 
 
-.second-exercise [class^="col"] {
+#second-exercise [class^="col"] {
+    height: 40px;
+}
+
+/* Offset */
+
+#offset [class^="col"] {
     height: 40px;
 }
