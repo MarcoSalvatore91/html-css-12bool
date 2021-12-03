@@ -18,11 +18,27 @@
     max-width: 1200px;
 }
 
+/* Row */
+
 .row {
     display: flex;
     flex-direction: row;
 }
 
-.col-1 {
-    width: calc(100% / 12);
+/* Colonne */
+
+/* Regole per tutte le colonne */
+
+[class^="col"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
+
+/* Le colonne si dividono lo spazio equamente */
+
+.col {
+    flex-grow: 1;
+}
+
+/* Colonne in griglia da 12 */
