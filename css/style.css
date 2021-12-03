@@ -55,3 +55,15 @@
 #offset [class^="col"] {
     height: 40px;
 }
+
+/* Nested */
+
+#nested [class^="col"] {
+    height: 50px;
+}
+
+#nested [class^="nested"] {
+    height: 40px;
+    max-height: 100%;
+    align-items: center;
+}
