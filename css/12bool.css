@@ -1,0 +1,28 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+.conteainer {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
