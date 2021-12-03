@@ -1,3 +1,5 @@
+/* Generics */
+
 [class^="col"] {
     background-color: dodgerblue;
     border: 1px solid white;
@@ -5,13 +7,13 @@
     color: white;
 }
 
+/* Nested */
+
 [class^="nested"] {
     background-color: chartreuse;
-    border: 1px solid dodgerblue;
+    border: 2px solid dodgerblue;
     padding: 10px 0;
 }
-
-/* Nested */
 
 .nested {
     padding: 10px 10px;
@@ -34,4 +36,16 @@
 .nested-8 {
     flex-basis: calc(100% / 12 * 8);
     max-width: calc(100% / 12 * 8);
+}
+
+/* First exercise */
+
+.first-exercise {
+    margin-bottom: 20px;
+}
+
+/* Second exercise */ 
+
+.second-exercise [class^="col"] {
+    height: 40px;
 }
