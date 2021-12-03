@@ -9,38 +9,16 @@
 
 /* Nested */
 
-[class^="nested"] {
+.nested [class^="col"] {
     background-color: chartreuse;
     border: 2px solid dodgerblue;
     padding: 10px 0;
-}
-
-.nested {
-    padding: 10px 10px;
+    max-height: 100%;
 }
 
 .nested {
     display: flex;
-}
-
-.nested-2 {
-    flex-basis: calc(100% / 12 * 2);
-    max-width: calc(100% / 12 * 2);
-}
-
-.nested-3 {
-    flex-basis: calc(100% / 12 * 3);
-    max-width: calc(100% / 12 * 2);
-}
-
-.nested-6 {
-    flex-basis: 50%;
-    max-width: 50%;
-}
-
-.nested-8 {
-    flex-basis: calc(100% / 12 * 8);
-    max-width: calc(100% / 12 * 8);
+    padding: 10px 10px;
 }
 
 /* First exercise */
@@ -55,19 +33,17 @@
     height: 40px;
 }
 
-/* Offset - Allignment */
+/* Offset */
 
-#offset [class^="col"], #allignment [class^="col"] {
+#offset [class^="col"] {
     height: 40px;
 }
 
-/* Nested - Justify-Content */
+/* Nested */
 
-#nested [class^="col"], #justify-content [class^="col"] {
+#nested [class^="col"] {
     height: 60px;
 }
-
-/* Nested */
 
 #nested [class^="nested"] {
     height: 40px;
@@ -77,6 +53,16 @@
 
 /* Allignment */
 
+#allignment [class^="col"] {
+    height: 40px;
+}
+
 #allignment .size-b {
     height: 80px;
+}
+
+/* Justify Content */
+
+#justify-content [class^="col"] {
+    height: 60px;
 }
