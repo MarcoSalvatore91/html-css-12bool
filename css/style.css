@@ -55,17 +55,19 @@
     height: 40px;
 }
 
-/* Offset */
+/* Offset - Allignment */
 
-#offset [class^="col"] {
+#offset [class^="col"], #allignment [class^="col"] {
     height: 40px;
 }
 
-/* Nested */
+/* Nested - Justify-Content */
 
-#nested [class^="col"] {
+#nested [class^="col"], #justify-content [class^="col"] {
     height: 60px;
 }
+
+/* Nested */
 
 #nested [class^="nested"] {
     height: 40px;
@@ -75,16 +77,6 @@
 
 /* Allignment */
 
-#allignment [class^="col"] {
-    height: 40px;
-}
-
 #allignment .size-b {
     height: 80px;
-}
-
-/* Justify Content */
-
-#justify-content [class^="col"] {
-    height: 60px;
 }
